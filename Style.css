@@ -195,9 +195,6 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
+/*for mobile */
+@media only screen and (max-width: 480px),
+only screen and (max-device-width: 480px) {}
