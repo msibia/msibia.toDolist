@@ -122,16 +122,3 @@ list.addEventListener("click", function(event) {
 
 
 });
-
-
-
-/* when the user clicks on a button to delete or signify completion
-
-list.addEventListener("click", function(e) {
-    let element = e.target;
-    const elementId = e.target.id;
-    const elementJOB = e.target.attrinutes.job.value;
-
-    console.log(elementJOB);
-
- */
